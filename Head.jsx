@@ -25,8 +25,8 @@ class Head extends Component {
     }
 
     capital() {
-        const {count} = this.state 
-        return count === 0 ? 'ZERO' : count;
+         
+        return this.state.count === 0 ? 'ZERO' : this.state.count;
     }
 }
  
